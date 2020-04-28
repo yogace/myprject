@@ -1,0 +1,10 @@
+ Volume in drive C has no label.
+ Volume Serial Number is E44B-E752
+
+ Directory of C:\Users\YOGACE\Desktop\myproject
+
+04/28/2020  05:01 PM    <DIR>          .
+04/28/2020  05:01 PM    <DIR>          ..
+04/28/2020  05:01 PM                 0 test.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  396,886,208,512 bytes free
