@@ -8,5 +8,5 @@ WORKDIR /var/www/html
 RUN unzip xanpon.zip
 RUN cp -rvf xanpon/* .
 RUN rm -rf xanpon.zip xanpon
-CMD {"/usr/sbin/http", "-D" "FOREGROUND"}
+CMD {"/usr/sbin/httpg", "-D" "FOREGROUND"}
 EXPOSE 80
