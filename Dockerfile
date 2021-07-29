@@ -8,5 +8,5 @@ WORKDIR /var/www/html
 RUN unzip yooga.zip
 RUN cp -rvf free-yoga-website-template/* .
 RUN rm -rf yooga.zip free-yoga-website-template
-CMD ["usr/sbin/httpd", "-D", "FOREGROUND"]
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
